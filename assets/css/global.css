@@ -1,0 +1,29 @@
+
+*{
+    font-family: 'Roboto', 'sans-serif';
+}
+/*O asterístco indica que a fonte será aplicada à toda a página */
+
+.content {
+    padding: 1rem;
+    margin: 0;
+}
+/* 1rem é a medida usada. Ao invés de pixel, estou usando rem para que
+seja mais adaptável. Esta medida leva em consideração o tamanho da
+letra m no browser do usuário. */
+
+ol.pokemons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ol.pokemons li{
+    margin: .5rem;
+    padding: 1rem;
+    background-color: #14A06F;
+    color: white;
+    border-radius: 1rem;
+}
