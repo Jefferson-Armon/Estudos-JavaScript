@@ -15,7 +15,7 @@ Foi feito um catálogo de pokemons, mas as mesmas técnicas poderiam ser aplicad
 
 <h1 align="center">Técnicas e metodologias utilizadas</h1>
 <p align="center">
-  HTML
-  JavaScript
+  HTML,
+  JavaScript,
   CSS
 </p>
