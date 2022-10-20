@@ -4,7 +4,7 @@
 
 <p align="center">
 ![status: em desenvolvimento](https://img.shields.io/badge/Status-Em%20desenvolvimento-orange)
-<p>
+</p>
   
 <h1 align="center">O projeto</h1>
 Este é um projeto desenvolvido ao longo de um bootcamp da plataforma DIO.
