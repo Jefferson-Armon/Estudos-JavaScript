@@ -1,8 +1,11 @@
 # <h1 align="center">Pokedex</h1>
 
 ![Imagem de um minigame vermelho sobre fundo azul](https://user-images.githubusercontent.com/54809071/196825900-8a629462-8ca2-440d-8a1b-b2e6f370a3e1.png)
-![status: em desenvolvimento](https://img.shields.io/badge/Status-Em%20desenvolvimento-orange)
 
+<p align="center">
+![status: em desenvolvimento](https://img.shields.io/badge/Status-Em%20desenvolvimento-orange)
+<p>
+  
 <h1 align="center">O projeto</h1>
 Este é um projeto desenvolvido ao longo de um bootcamp da plataforma DIO.
 O projeto consiste em um tipo de catálogo que, por ocasião do curso, foi feito para catalogar personagens do desenho Pokemon.
