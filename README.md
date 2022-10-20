@@ -3,7 +3,7 @@
 ![Imagem de um minigame vermelho sobre fundo azul](https://user-images.githubusercontent.com/54809071/196825900-8a629462-8ca2-440d-8a1b-b2e6f370a3e1.png)
 
 <p align="center">
-![status: em desenvolvimento](https://img.shields.io/badge/Status-Em%20desenvolvimento-orange)
+<img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-orange">
 </p>
   
 <h1 align="center">O projeto</h1>
