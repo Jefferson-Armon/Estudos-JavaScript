@@ -14,12 +14,8 @@ O projeto consiste em um tipo de catálogo que, por ocasião do curso, foi feito
 Foi feito um catálogo de pokemons, mas as mesmas técnicas poderiam ser aplicadas a catálogos de qualquer produto ou serviço, apenas alterando o design para que fique mais adequado para cada aplicação.
 
 <h1 align="center">Técnicas e metodologias utilizadas</h1>
-<p>
+<p align="center">
   HTML
-</p>
-<p>
   JavaScript
-</p>
-<p>
   CSS
 </p>
