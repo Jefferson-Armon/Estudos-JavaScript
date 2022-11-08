@@ -21,8 +21,8 @@ Foi feito um catálogo de pokemons, mas as mesmas técnicas poderiam ser aplicad
   Integração com a pokeAPI
 </p>
 
-<h1 align="center">Print Screen</h1>
+<h1 align="center">Screenshots</h1>
+
 <p align="center">
-https://github.com/Jefferson-Armon/Imagens-de-Projetos/blob/efd8cc07967e4696b698520849e98f91886ecd99/pokedex%20pic.png
-https://github.com/Jefferson-Armon/Imagens-de-Projetos/blob/efd8cc07967e4696b698520849e98f91886ecd99/pokedex%20pic2.png
+  <img src="https://github.com/Jefferson-Armon/Pokedex/blob/master/Images/Pokedex.png" width="350" title="hover text">
 </p>
