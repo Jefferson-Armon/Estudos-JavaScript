@@ -1,13 +1,54 @@
-const offset = 0
+
+
+
+
+
+const pokemonList = document.getElementById('pokemonList')
+const loadMoreButton = document.getElementById('loadMoreButton')
+const maxRecords = 151
 const limit = 10
-const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
+let offset = 0
 
-fetch(url)
-.then((response) => response.json())
-.then((jsonBody) => console.log(jsonBody))
-.catch((error) => console.log(error))
 
-// nas linas 5 a 8:
-//fetch vai buscar a api via url, a function em seguida vai pegar essa api, retornando-a
-//convertida em json para poder ser usada pelo JS. O catch em seguida já vai pegar o
-// objeto convertido.
+
+function loadPokemonItems(offset, limit) {
+    pokeApi.getPokemons(offset, limit) .then((pokemons = []) => {
+        const newHtml = pokemons.map((pokemon) => `
+        <li class="pokemon ${pokemon.type}">
+                    <span class="number">#${pokemon.number}</span>
+                    <span class="name">${pokemon.name}</span>
+    
+                    <div class="detail">
+                        <ol class="types">
+                            ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
+                        </ol>
+    
+                        <img src="${pokemon.photo}"
+                             alt="${pokemon.name}">
+                    </div>
+                                    
+                </li>`
+        ).join('')
+        pokemonList.innerHTML += newHtml
+    })
+}
+
+
+loadPokemonItems(offset, limit)
+
+loadMoreButton.addEventListener('click', () => {
+    offset += limit
+
+    const qtdRecordNextPage = offset + limit
+
+    if (qtdRecordNextPage >= maxRecords) {
+        const newLimit = maxRecords - offset
+        loadPokemonItems(offset,newLimit)
+        
+        loadMoreButton.parentElement.removeChild(loadMoreButton)
+    } else {
+        loadPokemonItems(offset, limit)
+    }
+
+    
+})
